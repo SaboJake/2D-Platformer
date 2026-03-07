@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/s_blade.png-867c5962f67d6a11629ad53cc84ddbbb.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://palettes/X/s_blade.png"
+dest_files=[ "res://.import/s_blade.png-867c5962f67d6a11629ad53cc84ddbbb.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
