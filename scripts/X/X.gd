@@ -25,7 +25,7 @@ var move_direction = 1
 var is_wall_sliding = false
 var is_up_dashing = false
 
-var has_max_armor = [1, 1, 1, 1] #Gucci Shoes, Buster, Chest, Helmet
+var has_max_armor = [0, 0, 0, 0] #Gucci Shoes, Buster, Chest, Helmet
 var has_giga_armor = [0, 0, 0, 0]
 
 var has_weapons = [0, 1, 0, 0, 1, 1, 0, 1, 1, 1] #Weapon checker, first one is unused

@@ -7,8 +7,8 @@
 [ext_resource path="res://tilesets/debug/slope2.png" type="Texture" id=5]
 [ext_resource path="res://tilesets/debug/slope2_.png" type="Texture" id=6]
 [ext_resource path="res://tilesets/debug/ground_.png" type="Texture" id=7]
-[ext_resource path="res://bar.tscn" type="PackedScene" id=8]
-[ext_resource path="res://weapon_bar.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Bar.tscn" type="PackedScene" id=8]
+[ext_resource path="res://WeaponBar.tscn" type="PackedScene" id=9]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 0, 0, 80, 0, 80, 80, 0, 80 )

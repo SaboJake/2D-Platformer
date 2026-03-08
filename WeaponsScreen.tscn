@@ -1,15 +1,15 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://ui/menu/menu_frames.png" type="Texture" id=1]
-[ext_resource path="res://Weapon.tscn" type="PackedScene" id=2]
-[ext_resource path="res://weapon_menu_manager.gd" type="Script" id=3]
+[ext_resource path="res://Weapon.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scripts/weapon_menu_manager.gd" type="Script" id=2]
+[ext_resource path="res://ui/menu/menu_frames.png" type="Texture" id=3]
 
 [node name="WeaponSelect" type="Control"]
 pause_mode = 2
 visible = false
 anchor_right = 1.0
 anchor_bottom = 1.0
-script = ExtResource( 3 )
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -23,7 +23,7 @@ margin_left = -732.0
 margin_top = -452.0
 margin_right = 732.0
 margin_bottom = 452.0
-texture = ExtResource( 1 )
+texture = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -40,5 +40,5 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Weapon" parent="Outline/Weapons" instance=ExtResource( 2 )]
+[node name="Weapon" parent="Outline/Weapons" instance=ExtResource( 1 )]
 margin_bottom = 68.0

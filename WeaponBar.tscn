@@ -3,7 +3,7 @@
 [ext_resource path="res://ui/small_bar_full.png" type="Texture" id=1]
 [ext_resource path="res://ui/small_bar_bg.png" type="Texture" id=2]
 [ext_resource path="res://ui/small_bar_empty.png" type="Texture" id=3]
-[ext_resource path="res://weapon_bar_manager.gd" type="Script" id=4]
+[ext_resource path="res://scripts/weapon_bar_manager.gd" type="Script" id=4]
 [ext_resource path="res://ui/icons/acid_b.png" type="Texture" id=5]
 
 [node name="Bar" type="NinePatchRect"]
